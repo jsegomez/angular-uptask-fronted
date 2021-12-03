@@ -11,12 +11,14 @@ import { DetailsComponent } from './details/details.component';
 // Modules
 import { SharedModule } from '../shared/shared.module';
 import { TemporalComponent } from './temporal/temporal.component';
+import { ListProjectsComponent } from './list-projects/list-projects.component';
 
 @NgModule({
   declarations: [
     MainComponent,
     DetailsComponent,
-    TemporalComponent
+    TemporalComponent,
+    ListProjectsComponent
   ],
   imports: [
     CommonModule,
